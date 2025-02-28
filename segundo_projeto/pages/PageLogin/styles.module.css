@@ -1,0 +1,45 @@
+.conteiner {
+  display: flex;
+}
+.homepageimg {
+  background-image: url(../../src/assets/Img_HomePage.png);
+  width: 45rem;
+  height: 59rem;
+  
+}
+.ladodireitohomepage {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-top: 4rem;
+  align-items: flex-start;
+}
+.ladodireitohomepage img{
+    margin-left: 33rem;
+}
+.mensagemhomepage {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-left: 25rem;
+  width: auto;
+}
+.mensagemhomepage p {
+  color: rgba(9, 9, 55, 0.6);
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.mensagemhomepage h2 {
+  color: #090937;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.conteinerlogin{
+    margin-left: 25rem;
+}

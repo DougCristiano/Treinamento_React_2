@@ -1,0 +1,121 @@
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  gap: 7.5rem;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+  gap:1.3rem
+}
+.divemail,
+.divsenha {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+.emailtexto, .senhatexto {
+  color: #090937;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.emailinput, .senhainput{
+    display: inline-flex;
+height: 60px;
+padding: 16px;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #F4F4FF;
+color:black;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.emailinput::placeholder, .senhainput::placeholder{
+    color: rgba(9, 9, 55, 0.40);
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+} 
+
+.emailerro, .senhaerro{
+    color: rebeccapurple;
+    font-family: Manrope;
+    font-size: 1rem;
+    font-style:italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.botaoentrar {
+  display: flex;
+  width: 400px;
+  height: 60px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 4px;
+  background: #ef6b4a;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  
+  &:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #ef6b4a ;
+ &:active{
+    transform: scale(0.9);
+ }
+  }
+}
+
+.botaocadastrar {
+  display: flex;
+  width: 400px;
+  height: 60px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 4px;
+  border: 1px solid #6251dd;
+  background: #fff;
+  color: #6251dd;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  &:hover{
+    cursor: pointer;
+    background-color: #6251dd ;
+    color:white;
+    &:active{
+        transform: scale(0.9);
+     }
+  }
+}
