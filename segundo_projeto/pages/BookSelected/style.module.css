@@ -1,0 +1,130 @@
+.voltar {
+  margin-top: 3rem;
+  margin-left: 19rem;
+  color: #090937;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.voltar a {
+  outline: none;
+  text-decoration: none;
+  color: black;
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    &:active {
+      color: blue;
+    }
+  }
+}
+.conteinerexterno4 {
+  display: flex;
+  margin-top: 3rem;
+  margin-inline: 18.5rem;
+  gap: 3rem;
+}
+.img2 {
+  display: inline-flex;
+  padding: 60px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-radius: 4px;
+  border: 1px solid rgba(9, 9, 55, 0.1);
+  background: #f4f4ff;
+}
+.img2 img {
+  width: 300px;
+  height: 450px;
+}
+.conteinerinterno4 {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.conteinerinterno5 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.conteinerinterno5 h1 {
+  color: #000;
+  font-family: Manrope;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.conteinerinterno5 p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.conteinerinterno6 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.conteinerinterno6 h2 {
+  color: #090937;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.conteinerinterno6 p {
+  color: rgba(9, 9, 55, 0.6);
+  text-align: justify;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+}
+.botaocomprar {
+    border: none;
+  display: flex;
+  margin-left: 70rem;
+  border-radius: 4px;
+  background: #ef6b4a;
+  width: 32rem;
+  height: 60px;
+  padding: 10px 20px;
+}
+.comprar {
+  
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+  transition: transform 0.1s ease;
+  &:hover {
+    cursor: pointer;
+  }
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.comprar p:first-child {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.comprar p:last-child {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

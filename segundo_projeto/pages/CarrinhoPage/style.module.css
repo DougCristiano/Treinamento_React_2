@@ -1,0 +1,37 @@
+.carrinhoConteiner{
+    background: rgba(98, 81, 221, 0.06);
+    display: flex;
+    flex-direction: column;
+    width: 60rem;
+    margin-left: 18.5rem;
+    padding: 1rem;
+    
+}
+.carrinhovazio{
+    font-size: 2rem;
+    font-family: Manrope;
+    
+}
+.carrinhoConteiner h1{
+    color: #090937;
+font-family: Manrope;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.carrinhoConteiner hr{
+    border-color: #6251DD;;
+    border-width: 2px;
+    width: 59.5rem;
+}
+.cabecalhoConteiner{
+    display: flex;
+    justify-content: space-between;
+    color: #2222E1;
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}

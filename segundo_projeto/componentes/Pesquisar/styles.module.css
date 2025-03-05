@@ -1,0 +1,144 @@
+.caixadepesquisa {
+  display: flex;
+  width: 800px;
+  height: 50px;
+  padding: 10px 20px;
+  align-items: center;
+  margin-left: 32rem;
+  gap: 10px;
+  border-radius: 4px;
+  background: #f4f4ff;
+}
+
+.botaopesquisar {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  transition: transform 0.1s ease;
+
+  &:hover {
+    cursor: pointer;
+  }
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.inputpesquisar {
+  display: flex;
+  width: 800px;
+  height: 50px;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  color: rgba(9, 9, 55, 0.4);
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 4px;
+  background: #f4f4ff;
+}
+
+.inputpesquisar::placeholder {
+  color: rgba(9, 9, 55, 0.4);
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+}
+
+.conteinerexterno1 {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  margin-inline: 18rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 300px;
+  padding: 20px;
+  gap: 3rem;
+  border-radius: 4px;
+}
+.conteinerexterno1 a{
+  text-decoration: none;
+}
+.conteinerexterno2 {
+  border-radius: 4px;
+  border: 1px solid rgba(9, 9, 55, 0.1);
+  background: #f4f4ff;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.conteinerinterno1 {
+  display: flex;
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+  padding: 2rem;
+}
+.conteinerinterno2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.conteinerinterno3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.capalivro2 {
+  width: 200px;
+}
+.titulolivro2 {
+  color: #090937;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.autorlivro2 {
+  color: rgba(9, 9, 55, 0.6);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.precolivro2 {
+  color: #6251dd;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.titulocategoria{
+    margin-top: 3rem;
+    margin-left: 19rem;
+    color: #090937;
+font-family: Manrope;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.titulocategoria a{
+  outline: none;
+  text-decoration: none;
+  color: black;
+ &:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  &:active{
+    color: blue;
+  }
+ }
+}
